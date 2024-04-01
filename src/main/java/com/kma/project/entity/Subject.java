@@ -23,4 +23,14 @@ public class Subject implements Serializable {
     String teacher;
     Integer creditsECTS;
     Integer hoursAmountPerWeek;
+
+    public Subject(String name,
+                   String teacher,
+                   Integer creditsECTS,
+                   Integer hoursAmountPerWeek) {
+        this.name = name;
+        this.teacher = teacher;
+        this.creditsECTS = creditsECTS;
+        this.hoursAmountPerWeek = hoursAmountPerWeek;
+    }
 }

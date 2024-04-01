@@ -27,4 +27,14 @@ public class Grade implements Serializable {
     Student student;
     @Reference
     Subject subject;
+
+    public Grade(Integer value,
+                 String type,
+                 Student student,
+                 Subject subject) {
+        this.value = value;
+        this.type = type;
+        this.student = student;
+        this.subject = subject;
+    }
 }
